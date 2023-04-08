@@ -1,0 +1,166 @@
+/* General styles */
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  body {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4d4d4d;
+  }
+  
+  a {
+  color: #4d4d4d;
+  text-decoration: none;
+  }
+  
+  ul {
+  list-style: none;
+  }
+  
+  /* Header styles */
+  
+  .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+  
+  .logo {
+  font-size: 24px;
+  font-weight: bold;
+  }
+  
+  .nav-menu {
+  display: flex;
+  }
+  
+  .nav-menu li {
+  margin-right: 20px;
+  }
+  
+  /* Logo styles */
+  
+  .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  }
+  
+  .logo img {
+  width: 200px;
+  height: auto;
+  }
+  
+  /* Menu item styles */
+  
+  .menu-item {
+  display: inline-block;
+  width: 250px;
+  margin: 10px;
+  border: 1px solid #a38f6c;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f7efe8;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  }
+  
+  .menu-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  }
+  
+  .menu-item h3 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #a38f6c;
+  }
+  
+  .menu-item p {
+  font-size: 16px;
+  margin-bottom: 0;
+  color: #4d4d4d;
+  }
+  
+  .menu-item .price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #a38f6c;
+  }
+  
+  /* Contact info styles */
+  
+  .contact-info {
+  margin-top: 30px;
+  text-align: center;
+  }
+  
+  .contact-info p {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #a38f6c;
+  }
+  
+  /* Order styles */
+  
+  .order {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 21px;
+  color: #a38f6c;
+  }
+  
+  /* Total styles */
+  
+  .total {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 21px;
+  color: #a38f6c;
+  }
+  
+  /* Customization note styles */
+  
+  .custom-note {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 21px;
+  color: #a38f6c;
+  }
+  
+  /* Background styles */
+  
+  body {
+  background-image: url('https://color-hex.org/colors/d7b2b2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  
+  /* Button styles */
+  
+  .buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  }
+  
+  .button-primary {
+  background-color: #a38f6c 
+  }
+  .center {
+    text-align: center;
+  }
+  
